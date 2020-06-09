@@ -1,0 +1,25 @@
+.container{
+
+    height: 500px;
+    width: 900px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 1px 1px 30px 1px rgba(255, 255, 255, 0.575)
+}
+
+.information{
+    height: 100%;
+    width: 70%;
+}
+
+.photo{
+    height: 100%;
+    width: 30%;
+    z-index: 1;
+}
+
+.image{
+    position: relative;
+    top: -55px;
+}
