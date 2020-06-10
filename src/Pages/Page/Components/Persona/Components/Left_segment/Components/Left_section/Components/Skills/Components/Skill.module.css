@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+}
+
+.circle_container{
+    display: flex;
+}
+
+.circle{
+    border:1px solid;
+    height: 13px;
+    width: 13px;
+    border-radius: 10px;
+    margin-right: 3px;
+}
