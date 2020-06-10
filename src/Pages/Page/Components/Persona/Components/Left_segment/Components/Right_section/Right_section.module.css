@@ -1,4 +1,7 @@
 .container {
     width: 48%;
     height: 400px;
+    display: flex;
+    margin-left: 20px;
+    flex-direction: column;
 }

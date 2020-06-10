@@ -1,0 +1,15 @@
+.container {
+    width: 96%;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.title{
+    font-size: 30px;
+}
+
+.bullet_container{
+    margin-top: 7px;
+}

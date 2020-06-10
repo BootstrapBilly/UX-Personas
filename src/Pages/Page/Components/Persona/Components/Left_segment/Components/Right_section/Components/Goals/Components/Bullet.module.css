@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.bullet_point{
+    width: 5px;
+    height: 5px;
+    border-radius: 10px;
+    margin-right: 5px;
+}

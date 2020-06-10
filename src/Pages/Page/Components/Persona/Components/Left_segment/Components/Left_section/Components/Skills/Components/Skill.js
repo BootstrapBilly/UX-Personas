@@ -19,7 +19,7 @@ export const Skill = props => {
 
                 {[1, 2, 3, 4, 5].map((circle, index) => 
                 
-                <div className={classes.circle} style={{borderColor:data.color_1, backgroundColor: data.skills[props.number][1] > index ? data.color_1 : null}}></div>
+                <div key={index} className={classes.circle} style={{borderColor:data.color_1, backgroundColor: data.skills[props.number][1] > index ? data.color_1 : null}}></div>
                 )}
 
             </div>

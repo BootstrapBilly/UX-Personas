@@ -15,6 +15,24 @@ const initialState = {//set the initial state
 
         quote:"I want to eat healther, but I don't know what to cook.",
 
+        goals:[
+            "To cook healthier meals more often (Do)",
+            "To feel inspired to cook (Feel)",
+            "To be fit and healthy (Be)"
+        ],
+
+        frustrations:[
+            "Healthy food can be expensive",
+            "Not knowing what to cook",
+        ],
+
+        environment:[
+            "Lives with 4 housemates in a room share",
+            "Shops for herself only",
+            "Cooks in a very busy shared kitchen",
+            "Uses a phone and laptop"
+        ],
+
         age:"21" ,
         location:"ESSEX" ,
         status:"SINGLE" ,
