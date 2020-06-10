@@ -1,0 +1,29 @@
+.container {
+    height: 100%;
+    width: 30%;
+    z-index: 1;
+    position: relative;
+}
+
+.image {
+    position: relative;
+    top: -55px;
+}
+
+.demographics_container {
+    position: absolute;
+    color: white;
+    left: 10px;
+    top: 25px;
+    font-size: 30px;
+}
+
+.other_demos {
+    margin-top: 3px;
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height: 70px;
+}

@@ -1,8 +1,6 @@
 import React from 'react';
 
-import classes from "./App.module.css"
-
-import Three from "./Pages/Three/Three"
+import Page from "./Pages/Page/Page"
 
 import { BrowserRouter, Switch, Route } from "react-router-dom"
 
@@ -14,7 +12,11 @@ function App() {
 
       <Switch>
 
-        <Route path="/" exact component={()=> <Three color_1="#329d9c" color_2="#7be495" />}  />
+        <Route path="/" exact component={() =>
+
+          <Page type="student"/>
+        }
+        />
 
       </Switch>
 
