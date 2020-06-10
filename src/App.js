@@ -14,7 +14,19 @@ function App() {
 
         <Route path="/" exact component={() =>
 
-          <Page type="student"/>
+          <Page type="1"/>
+        }
+        />
+
+        <Route path="/two" exact component={() =>
+
+          <Page type="2"/>
+        }
+        />
+
+        <Route path="/three" exact component={() =>
+
+          <Page type="3"/>
         }
         />
 

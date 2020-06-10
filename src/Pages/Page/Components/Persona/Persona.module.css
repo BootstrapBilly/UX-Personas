@@ -7,5 +7,32 @@
     box-shadow: 1px 1px 30px 1px rgba(0, 0, 0, 0.384);
     font-family: 'Lato', sans-serif;
     font-weight: 100;
+    position: relative;
 }
 
+.left_arrow, .right_arrow{
+
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 200px;
+    transition: height .1s, width .1s;
+
+}
+
+.left_arrow:hover, .right_arrow:hover{
+
+    cursor: pointer;
+    height: 55px;
+    width: 55px;
+}
+
+.left_arrow{
+
+    left: -180px;
+    transform: rotate(180deg);
+}
+
+.right_arrow {
+    right: -180px;
+}
