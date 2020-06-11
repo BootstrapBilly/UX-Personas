@@ -36,16 +36,16 @@ const initialState = {//set the initial state
         age:"21" ,
         location:"ESSEX" ,
         status:"SINGLE" ,
-        color_1:"#329d9c" ,
-        color_2:"#61c47a" ,
+        color_1:"#af6d77" ,
+        color_2:"#f7c1c9" ,
         image:"student.png"
         
     },
 
     2 : {
 
-        name:"2" ,
-        occupation:"LAW STUDENT" ,
+        name:"JIMMY SINGH" ,
+        occupation:"MARKETING DIRECTOR" ,
 
         bio: "When Sarah is not studying, she likes to party with friends, go to the gym and browse instagram. She has recently started taking the gym more seriously and is looking to gain knowledge about healthy foods.",
 
@@ -75,12 +75,12 @@ const initialState = {//set the initial state
             "Uses a phone and laptop"
         ],
 
-        age:"21" ,
-        location:"ESSEX" ,
-        status:"SINGLE" ,
+        age:"32" ,
+        location:"LONDON" ,
+        status:"MARRIED" ,
         color_1:"#329d9c" ,
         color_2:"#61c47a" ,
-        image:"student.png"
+        image:"professional.png"
         
     },
 
@@ -120,8 +120,8 @@ const initialState = {//set the initial state
         age:"21" ,
         location:"ESSEX" ,
         status:"SINGLE" ,
-        color_1:"#329d9c" ,
-        color_2:"#61c47a" ,
+        color_1:"#4d446f" ,
+        color_2:"#8a5082" ,
         image:"student.png"
         
     },

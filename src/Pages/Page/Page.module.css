@@ -4,4 +4,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    -ms-overflow-style: none;
+    overflow-x: hidden;
 }
+
+.container::-webkit-scrollbar{
+    display: none;
+  }
