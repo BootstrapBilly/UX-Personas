@@ -2,7 +2,7 @@ export const transition = {
 
     initial:{
 
-        left:"-100vw"
+        left:"100vw"
     },
 
     in:{
@@ -13,12 +13,12 @@ export const transition = {
     },
 
     out:{     
-        left:"100vw",
+        left:"-100vw",
 
     },
 
     left_initial:{
-        left:"100vw",
+        left:"-100vw",
     },
 
     left_in:{
@@ -30,7 +30,7 @@ export const transition = {
 
     left_out:{     
         // opacity:0,
-        left:"-100vw",
+        left:"100vw",
         // scale:0.5,
         // skew:90
     }

@@ -6,8 +6,11 @@
     align-items: center;
     -ms-overflow-style: none;
     overflow-x: hidden;
+    flex-direction: column;
+    position: relative;
 }
 
 .container::-webkit-scrollbar{
     display: none;
   }
+

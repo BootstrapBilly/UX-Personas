@@ -1,0 +1,13 @@
+.container{
+    color: rgba(255, 255, 255, 0.582);
+    font-size: 30px;
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 25px;
+}
+
+.number:hover{
+    cursor: pointer;
+}

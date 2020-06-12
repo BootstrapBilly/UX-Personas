@@ -32,6 +32,12 @@ function App() {
         }
         />
 
+        <Route path="/four" exact component={() =>
+
+          <Page type="4" location={location} />
+        }
+        />
+
       </Switch>
 
 

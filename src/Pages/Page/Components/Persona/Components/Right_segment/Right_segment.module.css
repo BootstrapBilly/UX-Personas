@@ -8,6 +8,7 @@
 .image {
     position: relative;
     top: -55px;
+    z-index: 3;
 }
 
 .demographics_container {
@@ -27,4 +28,13 @@
     justify-content: space-evenly;
     align-items: flex-start;
     height: 70px;
+}
+
+.persona_type{
+    font-size: 30px;
+    border: 2px solid;
+    padding: 5px;
+    position: relative;
+    bottom: 30px;
+    left: 185px;
 }

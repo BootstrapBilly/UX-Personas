@@ -21,12 +21,15 @@ export const Right_segment = props => {
 
                     <div>{data.location}</div>
                     <div>{data.status}</div>
+                    <div>{data.mother}</div>
 
                 </div>
 
             </div>
 
-            <img src={require(`../../../../../../Img/${data.image}`)} alt="A university student" className={classes.image} />
+            <img src={require(`../../../../../../Img/${data.image}`)} alt="A person" className={classes.image} />
+
+            <span className={classes.persona_type} style={{color:data.persona_type_color, borderColor:data.persona_type_color}}>{data.persona_type}</span>
 
         </div>
     )
