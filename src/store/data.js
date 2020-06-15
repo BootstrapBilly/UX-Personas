@@ -63,7 +63,7 @@ const initialState = {//set the initial state
         goals:[
             "To cook fresh meals more often (Do)",
             "To feel in control of his diet (Feel)",
-            "To live a healthy lifestyle (Be)"
+            "To lose some weight and be healthier (Be)"
         ],
 
         frustrations:[
