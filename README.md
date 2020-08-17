@@ -4,7 +4,9 @@
 
 # How to run it
 
+```javascript 
 npm start
+```
 
 # Live site
 
